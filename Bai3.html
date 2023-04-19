@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = ['r','a','3','6','7','c','5','s','9'];
+        let b = 'qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
+        let count = 0;
+        for(let i=0; i < a.length; i++){
+            if(b.indexOf(a[i]) == -1){
+                count++;
+            }
+        }
+        alert('Số ký tự số là: ' + count);
+    </script>
+</body>
+</html>
